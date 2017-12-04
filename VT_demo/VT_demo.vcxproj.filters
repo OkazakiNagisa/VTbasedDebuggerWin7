@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VMM2">
+      <UniqueIdentifier>{4fe58238-b8e0-45a2-b574-88ac63420442}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="snprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syscalhook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisablePG.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOOKfunctions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="initMiniHook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectWindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMH\common.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="VMH\mem.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAntiDebugALL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBGTOOL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgk1to2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DRRWE.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="initSsdtInlineHook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgIsMyProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiHookSwapContext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arch\Intel\EPT.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="Arch\Intel\VMX.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="Arch\Intel\VmxExitHandlers.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\HVM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\PageHook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\SyscallHook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Tests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\LDasm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveProcessDbgList.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="R3EptHieMemPage.c">
+      <Filter>Source Files\VMM2</Filter>
+    </ClCompile>
+    <ClCompile Include="EptHideDebugPort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gobalConter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amd64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMMprocessList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snprintf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LDE64x6412.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EptHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DRRWE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectDDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Txoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arch\Intel\EPT.h">
+      <Filter>Source Files\VMM2</Filter>
+    </ClInclude>
+    <ClInclude Include="Arch\Intel\VMCS.h">
+      <Filter>Source Files\VMM2</Filter>
+    </ClInclude>
+    <ClInclude Include="Arch\Intel\VMX.h">
+      <Filter>Source Files\VMM2</Filter>
+    </ClInclude>
+    <ClInclude Include="Arch\Intel\VmxEvent.h">
+      <Filter>Source Files\VMM2</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CPU.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\HVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\LDasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\PageHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\SyscallHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\Tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveProcessDbgList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R3EptHideMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="dbgfunc.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+    <MASM Include="dpg.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+    <MASM Include="dbgkm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="SwapContext.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="Arch\Intel\VMXa.asm">
+      <Filter>Source Files\VMM2</Filter>
+    </MASM>
+    <MASM Include="Hooks\Syscall.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
